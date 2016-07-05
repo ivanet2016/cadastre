@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding:  0;
+}
+
+ @font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: "helvetica_neueregular", Arial, Sans-serif;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.container {
+	width: 1280px;
+	height: 1060px;
+	background-image: url(../images/bg1.png);
+	position: absolute;
+	z-index: 2;
+}
+
+.horizont-menu {
+	position: relative;
+	width: 1280px;
+	height: 33px;
+	background: #085699;
+	z-index: 25;
+}
+
+.menu {
+	margin-left: 340px;
+}
+
+.menu ul {
+    width: 500px;
+    float: left;
+}
+
+.menu li {
+	display: inline-block;
+	list-style: none;
+}
+
+.menu li a {
+	text-decoration: none;
+	text-align: center;
+	color: #4592cb;
+	width: 95px;
+	height: 28px;
+	padding-top: 5px;
+	float: left;
+}
+
+.menu li a:hover {
+	color: white;
+	background: #4eabda;
+}
+
+.flag {
+	margin-top: 5px;
+	float: left;
+	width: 25px;
+}
+
+.flag-menu {
+	float: left;
+	width: 380px;
+}
+
+.flag-menu ul {
+}
+
+.flag-menu li {
+    display: inline-block;
+	list-style: none;
+}
+
+.flag-menu li a {
+	text-align: center;
+	color: #fff;
+	width: 200px;
+	padding-top: 5px;
+	float: left;
+}
+
+.flag-menu li a:hover {
+    background: #4eabda;
+    height: 28px;
+    opacity: 0.5;
+}
+
+.forms {
+	background: rgba( 15, 14, 14, 0.5 );
+	position: absolute;
+	width: 500px;
+	height: 650px;
+    top: 205px;
+    right: 390px;
+    z-index: 30;
+}
+
+
+hr {
+	color: rgba( 153, 153, 153, 0,5 );
+}
+
+.cadastre {
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
+
+.fb {
+	padding: 35px 100px;
+}
+
+.line {
+	padding-left: 100px;
+	margin-top: -25px;
+}
+
+.OU {
+	padding-left: 225px;
+	font-size: 20px;
+	color: #999999;
+}
+
+input {
+	width: 240px;
+	font-size: 16px;
+	color: #fff;
+	margin: 20px 0 0 110px;
+	padding: 10px 0 10px 20px;
+	border: 2px solid black;
+	background: rgb( 15, 14, 14 );
+}
+
+input:hover {
+	background: #085699;
+	border: 2px solid #689bcc;
+	border-radius: 5px;
+}
+
+.submit {
+	width: 170px;
+	padding: 10px;
+	background: #4198d2;
+	border: 2px solid #1b5288;
+	margin-left: 160px;
+	border-radius: 7px;
+}
+
+.checkbox {
+	margin-left: 1px;
+}
+
+p {
+	font-size: 14px;
+	color: #fff;
+}
+
+.end {
+	text-align: center;
+}
