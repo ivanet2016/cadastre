@@ -4,9 +4,9 @@
 }
 
  @font-face {
-    font-family: 'helvetica_neueregular';
-    src: url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
-         url('fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-family: "helvetica_neueregular";
+    src: url("../fonts/helveticaneue-thin-webfont.woff2") format("woff2"),
+         url("../fonts/helveticaneue-thin-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -138,6 +138,7 @@ input {
 	width: 240px;
 	font-size: 16px;
 	color: #fff;
+	cursor: pointer;
 	margin: 20px 0 0 110px;
 	padding: 10px 0 10px 20px;
 	border: 2px solid black;
@@ -153,14 +154,15 @@ input:hover {
 .submit {
 	width: 170px;
 	padding: 10px;
+	cursor: pointer;
 	background: #4198d2;
 	border: 2px solid #1b5288;
 	margin-left: 160px;
 	border-radius: 7px;
 }
 
-.checkbox {
-	margin-left: 1px;
+#checkbox {
+    width: 25px;
 }
 
 p {
@@ -170,4 +172,8 @@ p {
 
 .end {
 	text-align: center;
+}
+
+span {
+	text-decoration: underline;
 }
