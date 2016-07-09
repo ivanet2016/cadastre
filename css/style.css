@@ -20,18 +20,21 @@ body {
 }
 
 .container {
-	width: 1280px;
+	width: 100%;
 	height: 1060px;
 	background-image: url(../images/bg1.png);
-	position: absolute;
+	background-size: cover;
+	position: relative;
+	margin: 0 auto;
 	z-index: 2;
 }
 
 .horizont-menu {
 	position: relative;
-	width: 1280px;
+	width: 100%;
 	height: 33px;
 	background: #085699;
+	margin: 0 auto;
 	z-index: 25;
 }
 
@@ -99,11 +102,11 @@ body {
 
 .forms {
 	background: rgba( 15, 14, 14, 0.5 );
-	position: absolute;
-	width: 500px;
+	position: relative;
 	height: 650px;
+	width: 500px;
     top: 205px;
-    right: 390px;
+    margin: 0 auto;
     z-index: 30;
 }
 
@@ -124,14 +127,33 @@ hr {
 }
 
 .line {
-	padding-left: 100px;
-	margin-top: -25px;
+    border-right: 1px solid #4eabda;
 }
 
-.OU {
-	padding-left: 225px;
-	font-size: 20px;
-	color: #999999;
+.ou1 {
+	width: 100px;
+	height: 1px;
+    box-shadow: inset 0 0 5px 2px #b1b1b1;
+	float: left;
+}
+
+.ou {
+	width: 40px;
+	float: left;
+	color: #b1b1b1;
+	margin: -7px 0 0 15px;
+}
+
+.ou2 {
+	width: 100px;
+	height: 1px;
+    box-shadow: inset 0 0 5px 2px #b1b1b1;
+	float: left;
+}
+
+.lineou {
+	width: 260px;
+	margin-left: 110px;
 }
 
 input {
