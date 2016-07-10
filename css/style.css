@@ -39,7 +39,8 @@ body {
 }
 
 .menu {
-	margin-left: 340px;
+	width: 1100px;
+	float: right;
 }
 
 .menu ul {
@@ -68,14 +69,13 @@ body {
 }
 
 .flag {
+	width: 25px;
 	margin-top: 5px;
 	float: left;
-	width: 25px;
 }
 
 .flag-menu {
 	float: left;
-	width: 380px;
 }
 
 .flag-menu ul {
@@ -95,9 +95,8 @@ body {
 }
 
 .flag-menu li a:hover {
-    background: #4eabda;
+    background: linear-gradient(to top, #3280c7, #50afdc);
     height: 28px;
-    opacity: 0.5;
 }
 
 .forms {
@@ -168,7 +167,7 @@ input {
 }
 
 input:hover {
-	background: #085699;
+	background: linear-gradient(to top, #3280c7, #50afdc);
 	border: 2px solid #689bcc;
 	border-radius: 5px;
 }
